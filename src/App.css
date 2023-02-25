@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 3px 7px black;
+  margin: 10px 40px;
+  border-radius: 10px;
+  gap: 8px;
+}
+h1 {
+  color: brown;
+  border-bottom: 2px solid red;
+}
+li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+.fa-container {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+form {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+.list {
+  border-radius: 4px;
+  box-shadow: 2px 2px 4px black;
+}
+button {
+  cursor: pointer;
+}
+.button-complete {
+  background-color: rgb(19, 189, 19);
+  border: none;
+  border-radius: 50%;
+}
+.button-edit {
+  background-color: rgb(255, 255, 64);
+  border: none;
+  border-radius: 50%;
+}
+.button-delete {
+  background-color: rgb(230, 13, 13);
+  border: none;
+  border-radius: 50%;
+}
+.button-add {
+  border-radius: 4px;
+}
